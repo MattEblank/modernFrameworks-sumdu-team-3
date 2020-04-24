@@ -21,4 +21,6 @@ Fesenko: implement add/delete features
 Titarev: implement show all/edit features
 Cherkas: implement general structure of the project
 
+**24.04.2020** 
+Due to our workflow, all team have a vacation.
 
