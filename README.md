@@ -24,3 +24,13 @@ Cherkas: implement general structure of the project
 **24.04.2020** 
 Due to our workflow, all team have a vacation.
 
+
+**08.05.2020** 
+Fesenko: implement add/delete features (20 min) - 100%!
+Titarev: implement show all/edit features (20 min) - 100%!
+Cherkas: implement general structure of the project (20 min) - 100%!
+
+**Next tasks:** 
+Fesenko: test add/delete features
+Titarev: test show all/edit features
+Cherkas: test general structure of the project
