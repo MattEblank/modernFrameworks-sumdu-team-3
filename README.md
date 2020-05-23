@@ -34,3 +34,13 @@ Cherkas: implement general structure of the project (20 min) - 100%!
 Fesenko: test add/delete features
 Titarev: test show all/edit features
 Cherkas: test general structure of the project
+
+**22.05.2020** 
+Fesenko: create alpha documentation (30 min) - 100%!
+Titarev: implement design of web page (30 min) - 100%!
+Cherkas: integrate design into java project (30 min) - 100%!
+
+**Next tasks:** 
+Fesenko: complete documentation
+Titarev: complete design
+Cherkas: complete integration of design into java project
