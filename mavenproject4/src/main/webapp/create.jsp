@@ -5,7 +5,7 @@
 <title>Create subject</title>
 </head>
 <body>
-<h3>New product</h3>
+<h3>New subject</h3>
 <form method="post">
 <label>Name</label><br>
 <input name="name"/><br><br>

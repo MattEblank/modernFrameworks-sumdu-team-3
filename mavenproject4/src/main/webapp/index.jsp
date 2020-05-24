@@ -3,10 +3,10 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Products</title>
+<title>Subjects</title>
 </head>
 <body>
-<h2>Products List</h2>
+<h2>Subjects List</h2>
 <p><a href='<c:url value="/create" />'>Create new</a></p>
 <table>
 <tr><th>ID</th><th>Name</th><th></th></tr>

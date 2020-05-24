@@ -2,10 +2,10 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Edit product</title>
+<title>Edit subject</title>
 </head>
 <body>
-<h3>Edit product</h3>
+<h3>Edit subject</h3>
 <form method="post">
 <input type="hidden" value="${subject.id}" name="id" />
 <label>Name</label><br>
