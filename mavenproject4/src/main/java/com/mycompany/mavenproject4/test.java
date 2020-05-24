@@ -5,6 +5,8 @@ import java.io.PrintWriter;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
  
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -19,25 +21,11 @@ public class test extends HttpServlet {
  
         response.setContentType("text/html");
         PrintWriter writer = response.getWriter();
-        try{
-            
-            String url = "jdbc:mysql://localhost:3306/project_db?useUnicode=true&serverTimezone=UTC&autoReconnect=true&useSSL=false";
-            String username = "root";
-            String password = "root";
-            Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection connection = DriverManager.getConnection(url,
-                    username, password);
-            
-            writer.println("Connection to ProductDB succesfull!");
-        }
-        catch(Exception ex){
-            writer.println("Connection failed...");
-            writer.println(ex);
-        }
-        finally {
-            writer.close();
-        }
+        ArrayList<Subject> subjects = SQLController.getAllInstances();
         
+        request.setAttribute("subjects", subjects);
+        
+        getServletContext().getRequestDispatcher("/index.jsp").forward(request, response);
         
     }
 }

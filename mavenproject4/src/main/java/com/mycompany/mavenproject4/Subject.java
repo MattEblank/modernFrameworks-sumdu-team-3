@@ -6,32 +6,32 @@ package com.mycompany.mavenproject4;
  */
 public class Subject {
     
-    private int subId;
-    private String subName;
+    protected int id;
+    protected String name;
     
     public Subject(int id, String name)
     {
-        subId = id;
-        subName = name;
+        this.id = id;
+        this.name = name;
     }
     
-    public String getSubjectName()
+    public String getName()
     {
-        return subName;
+        return name;
     }
     
-    public void setSubjectName(String name)
+    public void setName(String name)
     {
-        subName = name;
+        this.name = name;
     }
     
-    public int getSubjectID()
+    public int getId()
     {
-        return subId;
+        return id;
     }
     
-    public void setSubjectID(int id)
+    public void setId(int id)
     {
-        subId = id;
+        this.id = id;
     }
 }
